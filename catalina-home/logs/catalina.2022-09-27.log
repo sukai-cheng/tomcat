@@ -1,0 +1,90 @@
+27-Sep-2022 16:46:43.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/@VERSION@
+27-Sep-2022 16:46:43.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+27-Sep-2022 16:46:43.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: @VERSION_NUMBER@
+27-Sep-2022 16:46:43.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-Sep-2022 16:46:43.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.6
+27-Sep-2022 16:46:43.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+27-Sep-2022 16:46:43.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre
+27-Sep-2022 16:46:43.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_345-b01
+27-Sep-2022 16:46:43.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Azul Systems, Inc.
+27-Sep-2022 16:46:43.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/csk/Desktop/workspace/study/tomcat/catalina-home
+27-Sep-2022 16:46:43.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/csk/Desktop/workspace/study/tomcat/catalina-home
+27-Sep-2022 16:46:43.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:58229,suspend=y,server=n
+27-Sep-2022 16:46:43.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=catalina-home
+27-Sep-2022 16:46:43.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=catalina-home
+27-Sep-2022 16:46:43.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=catalina-home/endorsed
+27-Sep-2022 16:46:43.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=catalina-home/temp
+27-Sep-2022 16:46:43.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Sep-2022 16:46:43.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+27-Sep-2022 16:46:43.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.ragion=us
+27-Sep-2022 16:46:43.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.language=en
+27-Sep-2022 16:46:43.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/csk/Library/Caches/JetBrains/IntelliJIdea2022.2/captureAgent/debugger-agent.jar
+27-Sep-2022 16:46:43.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+27-Sep-2022 16:46:43.856 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/csk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-Sep-2022 16:46:43.947 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Sep-2022 16:46:43.970 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 432 ms
+27-Sep-2022 16:46:44.025 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Sep-2022 16:46:44.025 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/@VERSION@]
+27-Sep-2022 16:46:44.037 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/csk/Desktop/workspace/study/tomcat/catalina-home/webapps/docs]
+27-Sep-2022 16:46:44.227 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/csk/Desktop/workspace/study/tomcat/catalina-home/webapps/docs] has finished in [189] ms
+27-Sep-2022 16:46:44.227 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/csk/Desktop/workspace/study/tomcat/catalina-home/webapps/manager]
+27-Sep-2022 16:46:44.262 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/csk/Desktop/workspace/study/tomcat/catalina-home/webapps/manager] has finished in [35] ms
+27-Sep-2022 16:46:44.262 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/csk/Desktop/workspace/study/tomcat/catalina-home/webapps/examples]
+27-Sep-2022 16:46:44.301 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+27-Sep-2022 16:46:44.302 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+27-Sep-2022 16:46:44.308 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/csk/Desktop/workspace/study/tomcat/catalina-home/webapps/examples] has finished in [46] ms
+27-Sep-2022 16:46:44.308 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/csk/Desktop/workspace/study/tomcat/catalina-home/webapps/ROOT]
+27-Sep-2022 16:46:44.332 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/csk/Desktop/workspace/study/tomcat/catalina-home/webapps/ROOT] has finished in [24] ms
+27-Sep-2022 16:46:44.332 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/csk/Desktop/workspace/study/tomcat/catalina-home/webapps/host-manager]
+27-Sep-2022 16:46:44.371 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/csk/Desktop/workspace/study/tomcat/catalina-home/webapps/host-manager] has finished in [38] ms
+27-Sep-2022 16:46:44.373 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Sep-2022 16:46:44.382 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 411 ms
+27-Sep-2022 16:50:46.684 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Sep-2022 16:50:46.693 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Sep-2022 16:50:46.701 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Sep-2022 16:50:46.704 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Sep-2022 16:50:48.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/@VERSION@
+27-Sep-2022 16:50:48.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+27-Sep-2022 16:50:48.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: @VERSION_NUMBER@
+27-Sep-2022 16:50:48.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-Sep-2022 16:50:48.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.6
+27-Sep-2022 16:50:48.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+27-Sep-2022 16:50:48.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre
+27-Sep-2022 16:50:48.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_345-b01
+27-Sep-2022 16:50:48.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Azul Systems, Inc.
+27-Sep-2022 16:50:48.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/csk/Desktop/workspace/study/tomcat/catalina-home
+27-Sep-2022 16:50:48.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/csk/Desktop/workspace/study/tomcat/catalina-home
+27-Sep-2022 16:50:48.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:58463,suspend=y,server=n
+27-Sep-2022 16:50:48.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=catalina-home
+27-Sep-2022 16:50:48.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=catalina-home
+27-Sep-2022 16:50:48.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=catalina-home/endorsed
+27-Sep-2022 16:50:48.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=catalina-home/temp
+27-Sep-2022 16:50:48.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Sep-2022 16:50:48.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+27-Sep-2022 16:50:48.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.ragion=us
+27-Sep-2022 16:50:48.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.language=en
+27-Sep-2022 16:50:48.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/csk/Library/Caches/JetBrains/IntelliJIdea2022.2/captureAgent/debugger-agent.jar
+27-Sep-2022 16:50:48.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+27-Sep-2022 16:50:48.790 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/csk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-Sep-2022 16:50:48.841 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Sep-2022 16:50:48.855 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 319 ms
+27-Sep-2022 16:50:48.904 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Sep-2022 16:50:48.904 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/@VERSION@]
+27-Sep-2022 16:50:48.915 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/csk/Desktop/workspace/study/tomcat/catalina-home/webapps/docs]
+27-Sep-2022 16:50:49.096 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/csk/Desktop/workspace/study/tomcat/catalina-home/webapps/docs] has finished in [180] ms
+27-Sep-2022 16:50:49.096 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/csk/Desktop/workspace/study/tomcat/catalina-home/webapps/manager]
+27-Sep-2022 16:50:49.133 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/csk/Desktop/workspace/study/tomcat/catalina-home/webapps/manager] has finished in [37] ms
+27-Sep-2022 16:50:49.133 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/csk/Desktop/workspace/study/tomcat/catalina-home/webapps/examples]
+27-Sep-2022 16:50:49.175 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+27-Sep-2022 16:50:49.175 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+27-Sep-2022 16:50:49.181 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/csk/Desktop/workspace/study/tomcat/catalina-home/webapps/examples] has finished in [48] ms
+27-Sep-2022 16:50:49.181 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/csk/Desktop/workspace/study/tomcat/catalina-home/webapps/ROOT]
+27-Sep-2022 16:50:49.205 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/csk/Desktop/workspace/study/tomcat/catalina-home/webapps/ROOT] has finished in [24] ms
+27-Sep-2022 16:50:49.205 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/csk/Desktop/workspace/study/tomcat/catalina-home/webapps/host-manager]
+27-Sep-2022 16:50:49.243 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/csk/Desktop/workspace/study/tomcat/catalina-home/webapps/host-manager] has finished in [38] ms
+27-Sep-2022 16:50:49.246 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Sep-2022 16:50:49.255 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 399 ms
+27-Sep-2022 16:51:41.538 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Sep-2022 16:51:41.546 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Sep-2022 16:51:41.557 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Sep-2022 16:51:41.569 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
